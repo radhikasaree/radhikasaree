@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(243, 243, 243);
+
+}
+#title{
+    text-align: center;
+    background-color: #000000;
+    padding: 5px;
+    max-width: 500px;
+    margin: 0px auto;
+    box-shadow: 0 0 40px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 100px;
+    color: white;
+}
+img{
+    height: 350px;
+    width: 209px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+h2 {
+    margin-top: 63px;
+}
+h3{
+    margin: 11px auto;
+    text-align: center;
+    border-bottom: #ee3e0f solid 1px;
+    max-width: 136px;
+}
+form{
+  padding: 10px;
+}
+.input{
+    height: 25px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.main {
+    max-width: 500px;
+    margin: 100px auto;
+    background: #fff;
+    box-shadow: 0 0 40px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    overflow: hidden;
+    height: 560px;
+    display: flex;
+    margin-top: 0px;
+}
+.method {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+label{
+    margin-top: 10px;
+}
+button {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 32px;
+    background-color: #ffa500;
+    border-radius: 10px;
+    color: white;
+    margin-top: 22px;
+    border: none;
+}
+#msg{
+    margin: 6px auto;
+    width: fit-content;
+    color: red;
+}
+
+
+
+@media(max-width:600px){
+    #title{
+    margin-top: 0px;
+    color: white;
+    font-size: 25px;
+    }
+    .main {
+         margin: 0px;
+         height: 100%;
+         flex-direction: column;
+          margin-top: 0px;
+       
+    }
+    #img img{
+        height: 177px;
+         width: 151px;
+    }
+    h2 {
+        
+     margin-top: 0px;
+        font-size: 18px;
+        margin: 10px;
+    }
+    h3{
+        font-size: 18px;
+       max-width: 155px; 
+    }
+    .photo{
+        width: 151px;
+    }
+    form{
+        padding: 0px;
+    }
+    #img{
+        flex-direction: row;
+      background-color: white;
+    }
+}
